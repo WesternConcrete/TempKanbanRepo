@@ -71,9 +71,8 @@ export const useBoardStyles = makeStyles((theme) => ({
     scrollBehavior: 'smooth',
   },
   laneContainer: {
-    flexBasis: 250,
+    flexBasis: "100%",
     flexGrow: 0,
-    flexShrink: 0,
     overflowY: 'scroll',
     display: 'flex',
     flexDirection: 'column',

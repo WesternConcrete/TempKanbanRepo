@@ -47,6 +47,10 @@ export interface Task {
   rootCommentIds?: string[],
 }
 
+export enum CourseType {
+  GE = "GE",
+}
+
 export interface Status {
   id: string,
   title: string,
